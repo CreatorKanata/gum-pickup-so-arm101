@@ -14,15 +14,18 @@
 
 ## 🎬 Demo Videos
 
-<div align="center">
-
-### Autonomous Robot Operation
-<div><video controls src="https://github.com/CreatorKanata/gum-pickup-so-arm101/raw/main/videos/run-inference.mp4" muted="false"></video></div>
-
-### Camera Vision Display
-<div><video controls src="https://github.com/CreatorKanata/gum-pickup-so-arm101/raw/main/videos/camera-video.mp4" muted="false"></video></div>
-
-</div>
+<table>
+<tr>
+<td align="center" width="50%">
+<b>Run Inference</b><br><br>
+<video src="https://github.com/user-attachments/assets/90f59c5c-42e0-4449-a950-ba9a8e1410cc">
+</td>
+<td align="center" width="50%">
+<b>Camera Views</b><br><br>
+<video src="https://github.com/user-attachments/assets/3a5870b0-0ad9-4f50-9377-d23be470e271">
+</td>
+</tr>
+</table>
 
 ## 🎯 Overview
 
@@ -50,7 +53,7 @@ This repository demonstrates how to train an AI robot arm (SO-ARM101) to perform
 - **Python**: 3.10
 - **GPU**: NVIDIA GeForce RTX 4070
 
-### System Architecture
+### System Layout
 
 ![System Structure](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/system-structure.jpg?raw=true)
 
