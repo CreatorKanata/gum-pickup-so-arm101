@@ -12,6 +12,18 @@
 
 </div>
 
+## 🎬 Demo Videos
+
+<div align="center">
+
+### Autonomous Robot Operation
+<div><video controls src="https://github.com/CreatorKanata/gum-pickup-so-arm101/raw/main/videos/run-inference.mp4" muted="false"></video></div>
+
+### Camera Vision Display
+<div><video controls src="https://github.com/CreatorKanata/gum-pickup-so-arm101/raw/main/videos/camera-video.mp4" muted="false"></video></div>
+
+</div>
+
 ## 🎯 Overview
 
 This repository demonstrates how to train an AI robot arm (SO-ARM101) to perform a gum pickup task using Hugging Face's LeRobot framework. The project covers the complete workflow from data collection through teleoperation to training and autonomous execution.
@@ -25,7 +37,7 @@ This repository demonstrates how to train an AI robot arm (SO-ARM101) to perform
 ## 🛠️ System Requirements
 
 ### Hardware
-- **Robots**: SO-ARM101 × 2 (Leader-Follower configuration)
+- **Robot**: SO-ARM101 (Leader-Follower configuration)
   - [SO-ARM101 AI Arm Motor Kit Pro](https://jp.seeedstudio.com/SO-ARM101-Low-Cost-AI-Arm-Kit-Pro-p-6427.html) - Motor kit from Seeed Studio
   - [SO-ARM101 3D Printed Parts](https://jp.seeedstudio.com/SO-ARM101-3D-printed-Enclosure-p-6428.html) - 3D printed enclosure from Seeed Studio
 - **Cameras**: 
@@ -123,7 +135,11 @@ python kanata_control.py
 
 <div align="center">
 
+**WandB Overview**: https://wandb.ai/takehide22-hapt-lab-llc/lerobot/overview
+
 [![WandB Overview](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/wandb-overview.png?raw=true)](https://wandb.ai/takehide22-hapt-lab-llc/lerobot/overview)
+
+**Training Charts**: https://wandb.ai/takehide22-hapt-lab-llc/lerobot/workspace?nw=nwusertakehide22
 
 [![Training Charts](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/wandb-train-charts.png?raw=true)](https://wandb.ai/takehide22-hapt-lab-llc/lerobot/workspace?nw=nwusertakehide22)
 
