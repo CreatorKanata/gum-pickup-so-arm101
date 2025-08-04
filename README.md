@@ -1,8 +1,10 @@
-# 🤖 SO-ARM101 Gum Pickup Task - LeRobot Implementation
+# 🤖 SO-ARM101 Gum Pickup Task with LeRobot
 
 <div align="center">
 
-![Gum Pickup Demo](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/gum-pickup.jpg?raw=true)
+<a href="https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/gum-pickup.jpg?raw=true">
+<img src="https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/gum-pickup.jpg?raw=true" width="500">
+</a>
 
 **Teaching AI Robot Arm SO-ARM101 to Pick Up Gum (Candy) Using Imitation Learning**
 
@@ -160,6 +162,16 @@ gum-pickup-so-arm101/
 ├── kanata_record.py      # Data collection script
 ├── kanata_control.py     # Inference execution script
 ├── images/              # Documentation images
+│   ├── gum-pickup.jpg
+│   ├── system-structure.jpg
+│   ├── camera-visions.jpg
+│   ├── wandb-overview.png
+│   ├── wandb-train-charts.png
+│   └── huggingface-*.png
+├── videos/              # Demo videos
+│   ├── run-inference.mp4
+│   └── camera-video.mp4
+├── CLAUDE.md           # Guidelines for Claude Code
 └── README.md           # This file
 ```
 
