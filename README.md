@@ -42,6 +42,10 @@ This repository demonstrates how to train an AI robot arm (SO-ARM101) to perform
 
 ![System Structure](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/system-structure.jpg?raw=true)
 
+### Camera Views
+
+![Camera Visions](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/camera-visions.jpg?raw=true)
+
 ## 🚀 Quick Start
 
 ### 1. Environment Setup
