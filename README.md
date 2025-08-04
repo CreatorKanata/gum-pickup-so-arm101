@@ -1,5 +1,7 @@
 # gum-pickup-so-arm101
 
+![](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/gum-pickup.jpg?raw=true)
+
 ## Software/Hardware spec
 
 - OS: Ubuntu 24.0
