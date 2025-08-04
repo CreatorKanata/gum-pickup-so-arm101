@@ -16,6 +16,14 @@
   - Model: https://huggingface.co/CreatorKanata/act-gum-pickup-so-arm101
 - Wandb: https://wandb.ai/takehide22-hapt-lab-llc/lerobot/runs/afarhran/overview
 
+## System structure
+
+- 2 Cameras
+  - USB camera to se the whole system
+  - Realsense D435i to see the hand of the leader robot arm 
+
+![](https://github.com/CreatorKanata/gum-pickup-so-arm101/blob/main/images/system-structure.jpg?raw=true)
+
 ## Commands
 
 Installation lerobot
@@ -43,13 +51,13 @@ Tele-operation
 python -m lerobot.teleoperate --robot.type=so101_follower --robot.port=/dev/tty.usbserial_lerobot_follower --robot.id=lerobot_follower_arm --teleop.type=so101_leader --teleop.port=/dev/tty.usbserial_lerobot_leader --teleop.id=lerobot_leader_arm
 ```
 
-Record dataset
+Record a dataset
 
 ```
 python kanata-record.py
 ```
 
-Train
+Train a policy
 
 ```
 python -m lerobot.scripts.train \
@@ -60,5 +68,11 @@ python -m lerobot.scripts.train \
   --policy.device=cuda \
   --wandb.enable=true \
   --policy.repo_id=CreatorKanata/act-gum-pickup-so-arm101
+```
+
+Run inference
+
+```
+python kanata-control.py
 ```
 
